@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <main>
+        <section class="calculadora">
+            <h1>Calculadora</h1>
+
+            <input type="text" name="resultado" id="resultado">
+
+            <table class="teclado">
+
+                <tr>
+                    <td onclick="limpar()" class="botao">C</td>
+                    <td onclick="deletar()" class="botao"><i class="ri-delete-back-2-line"></i></td>
+                    <td onclick="adicionar()" class="botao">/</td>
+                    <td onclick="adicionar()" class="botao">*</td>
+                </tr>
+
+                <tr>
+                    <td onclick="adicionar()" class="botao">7</td>
+                    <td onclick="adicionar()" class="botao">8</td>
+                    <td onclick="adicionar()" class="botao">9</td>
+                    <td onclick="adicionar()" class="botao">-</td>
+                </tr>
+
+                <tr>
+                    <td onclick="adicionar()" class="botao">4</td>
+                    <td onclick="adicionar()" class="botao">5</td>
+                    <td onclick="adicionar()" class="botao">6</td>
+                    <td onclick="adicionar()" class="botao">+</td>
+                </tr>
+
+                <tr>
+                    <td onclick="adicionar()" class="botao">1</td>
+                    <td onclick="adicionar()" class="botao">2</td>
+                    <td onclick="adicionar()" class="botao">3</td>
+                    <td onclick="calcular()" class="botao">=</td>
+                </tr>
+
+                <tr>
+                    <td onclick="adicionar()" colspan="2" class="botao">0</td>
+                    <td onclick="adicionar()" colspan="2" class="botao">,</td>
+                </tr>
+
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>
