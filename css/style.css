@@ -44,7 +44,7 @@ main {
     margin: auto;
 }
 
-.botao {
+.botao, .calcular {
     height: 25px;
     width: 25px;
     padding: 25px;
