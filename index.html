@@ -9,12 +9,17 @@
 </head>
 
 <body>
+    <!-- Foi utilizada a Tag main para definir a coloração do fundo do site -->
     <main>
+        <!-- Utilizei a section "calculadora" para delimitar o espaço da mesma -->
         <section class="calculadora">
+            <!-- Título em cima da calculadora -->
             <h1>Calculadora</h1>
 
+            <!-- input onde seram inseridos os caracteres e feito os cálculos -->
             <input type="text" name="resultado" id="resultado">
 
+            <!-- Utilizei a tag table para delimitar os botões da calculadora -->
             <table class="teclado">
 
                 <tr>
@@ -46,13 +51,15 @@
                 </tr>
 
                 <tr>
-                    <td onclick="adicionar()" colspan="2" class="botao">0</td>
-                    <td onclick="adicionar()" colspan="2" class="botao">,</td>
+                    <td colspan="2" class="botao">0</td>
+                    <td colspan="2" class="botao">,</td>
                 </tr>
 
             </table>
         </section>
     </main>
+
+    <!-- Link para o código JavaScript -->
     <script src="./main.js"></script>
 </body>
 
